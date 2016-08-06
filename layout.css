@@ -6,7 +6,7 @@ body{margin:0;padding:0}
 p {line-height: 1.2em;}
 
 .survey{ margin:0 auto;line-height:22px;}
-.survey-body{height:1200px;background:url(img/bg.jpg) repeat #fff; margin:0 20px; box-shadow: 0px 1px 5px;}
+.survey-body{height:1400px;background:url(img/bg.jpg) repeat #fff; margin:0 20px; box-shadow: 0px 1px 5px;}
 .content{padding: 1em;}
 .playmusic{
 	position: fixed;
