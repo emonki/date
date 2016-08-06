@@ -10,6 +10,9 @@
 
     <link rel="stylesheet" type="text/css" href="layout.css">
     <script>
+    alert("鄧　様へ")
+    </script>
+    <script>
         window.onload=function(){
             var story = document.getElementById('word');
             var s = document.getElementById('show');
@@ -20,7 +23,7 @@
         if(s.innerHTML==story.innerHTML){
             clearInterval(timer);
         }
-            },180);
+            },200);
         }
     </script>
 
@@ -30,11 +33,11 @@
     var music_btn = document.getElementById('music_btn2');    
     if (music.paused){    
         music.play();    
-        music_btn.src = 'play.gif';    
+        music_btn.src = 'img/play.gif';    
     }    
     else{    
         music.pause();    
-        music_btn.src = 'pause.gif';     
+        music_btn.src = 'img/pause.gif';     
     }    
 } 
 
@@ -98,7 +101,7 @@
                     
 好きだよ。
      
-嫌われるかもしれないけど、     
+へんじしてないかもしれないけど、     
 君のことが好きでした。 
     
 周
@@ -110,7 +113,7 @@
 
     <div class="playmusic">
     <audio id="music2" src="http://d3.s.hjfile.cn/2016/201608_1/88ea71a4-cf86-41e2-9b18-c249740337a7.mp3"  autoplay="autoplay" loop="loop">你的浏览器不支持audio标签。</audio>    
-    <a href="javascript:playPause();"><img src="pause.gif" width="48" height="50" id="music_btn2" border="0"></a>  
+    <a href="javascript:playPause();"><img src="img/play.gif" width="38" height="38" id="music_btn2" border="0"></a>  
     </div>
 
 
