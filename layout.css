@@ -15,7 +15,7 @@ p {line-height: 1.2em;}
 }
 
 
-h1{padding:0;margin:0;font-size: 20px;}
+h1{padding:0;margin:0;font-size: 1rem;}
 .survey-top{height:32px}
 .survey-top,.survey-top .logo{background:no-repeat}
 .survey-title{text-align:center;padding:10px;line-height:28px;}
