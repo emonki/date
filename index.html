@@ -10,7 +10,7 @@
 
     <link rel="stylesheet" type="text/css" href="layout.css">
     <script>
-    document.getElementById('music2').click();
+    document.getElementById('playMusic').click();
     </script>
     <script>
         window.onload=function(){
@@ -49,6 +49,7 @@
 <body class="body">
 
 <div id="word" style="display:none;">   
+               
 邓桑，你好啊 :)
 
 我是周龙生，射手座，A型血。      
@@ -113,7 +114,7 @@
 
     <div class="playmusic">
     <audio id="music2" src="http://d3.s.hjfile.cn/2016/201608_1/88ea71a4-cf86-41e2-9b18-c249740337a7.mp3"  autoplay="autoplay" loop="loop">你的浏览器不支持audio标签。</audio>    
-    <a href="javascript:playPause();"><img src="img/play.gif" width="50" height="50" id="music_btn2" border="0"></a>  
+    <a id="playMusic" href="javascript:playPause();"><img src="img/play.gif" width="50" height="50" id="music_btn2" border="0"></a>  
     </div>
 
 
