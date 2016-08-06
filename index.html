@@ -1,0 +1,96 @@
+
+
+<html lang="zh_cn">
+
+<head>
+    <meta charset="utf-8">
+    <title>kokuhaku</title>
+        <link rel="stylesheet" type="text/css" href="layout.css">
+        <script>
+        window.onload=function(){
+            var story = document.getElementById('word');
+            var s = document.getElementById('show');
+            var i = 0;
+            timer=setInterval(function(){
+        s.innerHTML=story.innerHTML.substring(0,i);
+        i++;
+        if(s.innerHTML==story.innerHTML){
+            clearInterval(timer);
+        }
+            },251);
+        }
+    </script>
+
+
+</head>
+
+<body class="body">
+<div id="word" style="display:none;">
+
+邓小姐，你好啊 :)
+
+我是周龙生，射手座A型血。   
+喜欢听五月天，跑马拉松，看老电影，在图书馆发呆，还有…
+     
+喜欢你。
+     
+记得我们之前玩过的游戏吗？就是用五个形容词描述自己。   
+本来这个游戏是要来描述对方的，那天稍微改了下玩法。
+     
+如果让我来形容你的话，大概会是...
+善良，敏感，低调，谨慎，随和，温柔，美丽，懂事...   
+不好意思好像超过五个了…     
+不过我更希望看到你的活泼，好奇，坦诚，小孩子的一面。
+你笑起来很可爱，看到你我就很开心。
+     
+一直以来我都是活得挺随随便便的，别人说什么我也不会管，
+对任何事情都不是很上心，所以也从来没有失眠过。   
+但是你出差喝醉那天， 
+听到你难受的声音，我整晚都没睡着， 
+抑制不住的想陪在你的身边，听你说说心事。
+           
+我想我应该是喜欢上你了。
+          
+从前喜欢一个女生的时候，会暗中观察很久，
+觉得对方太优秀，而自己不够好，所以都会选择逃避，
+然后暗下决心变得够好以后再去追，最终错过一段缘分。      
+过了很久之后才发现这样的做法很幼稚。
+一个人想再多，烦恼再多，对方也不会明白你心意的。     
+
+没有传达出去的感情是没有意义的。
+     
+有一种文明，是要感激你喜欢的人，   
+因为对方让你给了你一个机会，让你品尝到魔法的滋味。     
+人是那么复杂呀，
+哲学家们用了几千年都在思考“我是谁”，
+而我却想用人生那么短的几十年时间想了解你。   
+    
+我愿意敞开心扉，与你同行，一起经历这变幻的人生旅途。
+     
+我愿意分享你的快乐，分担你的烦恼。
+                    
+我喜欢你。
+                    
+
+周
+
+
+</div>
+
+
+<div class="survey-body survey" style="height:1000px">
+    <pre id="show" ></pre>
+
+</div>
+
+    <div style="clear:both;"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+ 
+</div>
+
+</body></html>
