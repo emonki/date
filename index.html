@@ -9,10 +9,7 @@
     
 
     <link rel="stylesheet" type="text/css" href="layout.css">
-    <script>
-    document.getElementById('music2').click();
 
-    </script>
     <script>
         window.onload=function(){
             var story = document.getElementById('word');
@@ -28,22 +25,6 @@
         }
     </script>
 
-    <script type="text/javascript">
-    function playPause() {    
-    var music = document.getElementById('music2');    
-    var music_btn = document.getElementById('music_btn2');
-
-    if (music.paused){    
-        music.play();    
-        music_btn.src = 'img/play.gif';    
-    }    
-    else{    
-        music.pause();    
-        music_btn.src = 'img/pause.gif';     
-    }    
-} 
-
-    </script>
 
 </head>
 
@@ -122,6 +103,30 @@
 
 </div>
 
+</body>
+
+    <script>
+    document.getElementById('music2').click();
+
+    </script>
+
+    <script type="text/javascript">
+    function playPause() {    
+    var music = document.getElementById('music2');    
+    var music_btn = document.getElementById('music_btn2');
+
+    if (music.paused){    
+        music.play();    
+        music_btn.src = 'img/play.gif';    
+    }    
+    else{    
+        music.pause();    
+        music_btn.src = 'img/pause.gif';     
+    }    
+} 
+
+    </script>
 
 
-</body></html>
+
+</html>
