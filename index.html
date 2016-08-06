@@ -13,9 +13,9 @@
     <script>
         window.onload=function(){
         document.addEventListener('touchstart',function(){
-    audio.play();
+    document.getElementById('music2').play();
 },false);
-
+alert('鄧　様　へ')
             var story = document.getElementById('word');
             var s = document.getElementById('show');
             var i = 0;
@@ -102,7 +102,7 @@
     <pre id="show" ></pre>
 
     <div class="playmusic">
-    <audio id="music2" src="http://d3.s.hjfile.cn/2016/201608_1/88ea71a4-cf86-41e2-9b18-c249740337a7.mp3"  autoplay="autoplay" loop="loop">你的浏览器不支持audio标签。</audio>    
+    <audio id="music2" src="http://d3.s.hjfile.cn/2016/201608_1/88ea71a4-cf86-41e2-9b18-c249740337a7.mp3" loop="loop">你的浏览器不支持audio标签。</audio>    
     <a href="javascript:playPause();"><img src="img/play.gif" width="50" height="50" id="music_btn2" border="0"></a>  
     </div>
 
