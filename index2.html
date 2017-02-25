@@ -1,0 +1,142 @@
+
+
+<html lang="zh_cn">
+
+<head>
+    <meta charset="utf-8" name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>   
+
+    <title>kokuhaku</title>
+    
+
+    <link rel="stylesheet" type="text/css" href="layout.css">
+
+    <script>
+        window.onload=function(){
+//         document.addEventListener('touchstart',function(){
+//     document.getElementById('music2').play();
+// },false);
+            var story = document.getElementById('word');
+            var s = document.getElementById('show');
+            var i = 0;
+            timer=setInterval(function(){
+        s.innerHTML=story.innerHTML.substring(0,i);
+        i++;
+        if(s.innerHTML==story.innerHTML){
+            clearInterval(timer);
+        }
+            },200);
+        }
+    
+    </script>
+
+
+</head>
+
+
+<body class="body">
+
+<div id="word" style="display:none;">   
+        
+邓桑，你好啊 :)
+
+我是周龙生，射手座，A型血。      
+喜欢听五月天、喜欢跑马拉松、
+喜欢看老电影、喜欢在图书馆发呆，
+     
+还有…
+     
+喜欢你。
+     
+记得我们之前玩过的游戏吗？
+就是用五个形容词描述自己。   
+本来这个游戏是要来描述对方的，
+那天稍微改了下玩法。
+     
+如果让我来形容你的话，大概会是…   
+善良、敏感、低调、谨慎、
+随和、温柔、美丽、懂事…   
+不好意思好像超过五个词了^_^     
+不过我也想看到你的活泼，好奇，天真的一面。
+
+你的笑容超可爱，想到你我就会感到很开心。
+     
+一直以来都挺没心没肺的，别人说什么也不会在意，
+对任何事情都不是很上心，所以也从来没有失眠过。   
+但是你出差喝醉打电话给我的时候， 
+听到你难过的声音，我整晚都没睡着， 
+抑制不住的想陪在你的身边，听你说说话。
+           
+我想我应该是喜欢上你了。
+          
+从前喜欢一个女生的时候，
+会暗中观察很久，觉得对方太优秀，
+而自己不够好，所以都会选择逃避，
+然后暗下决心，想等变得够好以后再去追。      
+然而过了很久之后，才发现这样的做法很幼稚。   
+
+一个人就算烦恼再多，想法再多，
+不说出来的话，对方也不会明白心意的。   
+     
+没有传达出去的感情是没有意义的。
+     
+听说有一种文明，爱人的一方要感激被爱的一方，   
+因为对方给了你一个机会，让你品尝到魔法的滋味。
+
+人是那么的复杂呀，
+哲学家们用了几千年都在思考“我是谁”，
+而我却不自量力，想用人生那么短的几十年来了解你。   
+    
+如果可以，我想和你一起走一段路。
+我愿意分享你的快乐，分担你的烦恼。               
+     
+嫌われたかもしれないですが、いいます。       
+
+
+                  君のことが好きでした。          
+                  君のことが大好きです。
+
+                  ありがとう　m(_)m
+
+
+
+
+</div>
+
+
+<div class="survey-body content">
+
+<h1 style="text-align:center;">鄧　娟　へ </h1>
+
+    <pre id="show" ></pre>
+
+    <div class="playmusic">
+    <audio id="music2" src="http://d3.s.hjfile.cn/2016/201608_1/88ea71a4-cf86-41e2-9b18-c249740337a7.mp3" loop="loop">你的浏览器不支持audio标签。</audio>    
+    <a href="javascript:playPause();"><img src="img/play.gif" width="50" height="50" id="music_btn2" border="0"></a>  
+    </div>
+
+
+</div>
+
+</body>
+
+
+    <script type="text/javascript">
+    function playPause() {    
+    var music = document.getElementById('music2');    
+    var music_btn = document.getElementById('music_btn2');
+
+    if (music.paused){    
+        music.play();    
+        music_btn.src = 'img/play.gif';    
+    }    
+    else{    
+        music.pause();    
+        music_btn.src = 'img/pause.gif';     
+    }    
+} 
+
+    </script>
+
+
+
+</html>
